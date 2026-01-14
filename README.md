@@ -66,11 +66,11 @@
 <br />
 
 <!-- FOOTER: TOP LANGUAGES & SNAKE -->
-<div align="center">
+<!-- <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ted911&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&bg_color=0d1117" />
-</div>
+</div> -->
 
-<br />
+<!-- <br /> -->
 
 <!-- SNAKE GAME ANIMATION (Requires GitHub Action setup) -->
 <div align="center">
