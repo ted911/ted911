@@ -22,7 +22,7 @@
     </td>
     <!-- CELL 2: GITHUB STATS -->
     <td width="50%" align="center" style="border: none;">
-       <img src="https://github-readme-stats.vercel.app/api?username=ted911&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117" alt="stats graph" />
+       <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ted911&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117" alt="stats graph" />
     </td>
   </tr>
   <tr>
