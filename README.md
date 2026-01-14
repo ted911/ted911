@@ -74,5 +74,5 @@
 
 <!-- SNAKE GAME ANIMATION (Requires GitHub Action setup) -->
 <div align="center">
-  <img src="https://github.com/ted911/ted911/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/ted911/ted911/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
