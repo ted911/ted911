@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hi,+I'm+Ted911;Backend+System+Architect;Quality+%26+Automation+Specialist" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Full+Stack+Architect;Cross-Platform+Specialist;React+Native+%26+Spring+Boot" alt="Typing SVG" />
 </div>
 
 <div align="center">
-  <h3><i>"Building maintainable systems with robust automation."</i></h3>
+  <h3><i>"Architecting seamless experiences from native mobile to scalable backends."</i></h3>
 </div>
 
 <br />
