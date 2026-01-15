@@ -34,7 +34,7 @@
     <td width="50%" align="center" style="border: none;">
       <h3>🚀 DevOps & Quality</h3>
       <br />
-      <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,sentry,fastlane,grafana&theme=dark" />
+      <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,sentry,grafana&theme=dark" />
       <br /><br />
       <p><b>CI/CD, Monitoring & Automated Release</b></p>
     </td>
