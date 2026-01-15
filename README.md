@@ -55,69 +55,59 @@
 
 ## 📱 Mobile & Frontend (React Native, React, TypeScript)
 
-**Projects:** `eventu-app`, `eventu-webview`, `eventu-admin`
+### React Native (`happymore-app`, `eventu-app`)
 
-### React Native (`eventu-app`)
-
-- **Navigation**: Implemented `RootNavigator`, `AuthNavigator`, and handled back button gestures (`useAndroidBackHandler`, `beforeRemove`).
-- **Webview Integration**: Developed `WebviewScreen` for seamless hybrid app experiences.
-- **Permissions & Notifications**: Managed App Permissions (`PermissionsGuideScreen`), Notification settings (`PushSettingScreen`), and Notifee integration.
-- **Native Modules**: Configured Android (`grade`, `xml`) and iOS (`Podfile`, `Info.plist`, `xcodeproj`) settings.
-- **Maintenance**: Implemented maintenance mode screens and modals.
-
-### React Web & WebView (`eventu-webview`, `eventu-admin`)
-
-- **UI/UX**:
-  - Implemented complex UI components like Flip Cards (`FlipCard.tsx`), Hidden Cards, and Feed lists.
-  - Used **Styled Components** (`.style.tsx`) and **CSS** for styling.
-  - Integrated **Lottie** animations (`LottieHiddenCard.tsx`).
-- **State Management & Querying**:
-  - Extensive use of **React Query** (`usePointQuery`, `useMemberQuery`).
-  - Custom Hooks (`useChart`, `useModal`, `useEventWrite`).
+- **Architecture & DevOps**:
+  - Setup **fastlane** for automated deployment and **Semantic Release** pipelines (`happymore`).
+  - Implemented modular architecture and managed Android SDK upgrades (minSdk 34->35) (`happymore`).
+  - Configured Native Modules for Android/iOS permissions and notifications (`eventu`).
 - **Features**:
-  - **Dashboard**: Developed charts for DAU, App Downloads using charting libraries (`activeUsersChart`, `AppDownloadCountChart`).
-  - **Event Management**: Created event writing flows (Step 1-4), Event Detail pages, and Report pages.
-  - **Benefit/Point**: Attendance checks, Roulette/Drawing games (`Drawing.tsx`), Point History.
+  - **Core**: "Defer-map" implementation, Chat screen integration, Video upload with compression (`happymore`).
+  - **Navigation**: Complex flows with `RootNavigator`, `AuthNavigator`, and deep linking (`eventu`).
+  - **Hybrid**: Developed `WebviewScreen` with bidirectional bridge (`app-bridge`) for seamless web integration.
+
+### React Web & WebView (`happymore-web`, `eventu-webview`, `eventu-admin`)
+
+- **Core Library & Components**:
+  - Developed `happymore-web-common` for shared logic and components across services.
+  - Implemented complex UI: Flip Cards, Hidden Cards (`eventu`), Drawer/AppBar layouts (`happymore`).
+- **State & Data**:
+  - Extensive use of **React Query** for efficient data fetching and caching.
+  - Custom data visualization using charting libraries for DAU/Apps Downloads (`eventu`).
+- **Service Features**:
+  - **Customer Portal**: Notification settings, Service usage flows (`happymore`).
+  - **Event Management**: Event writing flows, Reports, and interactive games like Roulette (`eventu`).
 
 ## ☕ Backend (Java, Spring Boot)
 
-**Projects:** `eventu-point`, `eventu-batch`, `eventu-common-java`
+### Services & API (`happymore-chat`, `eventu-point`, `happymore-ums`)
 
-### Java & Spring Boot
+- **Chat Service**: Implemented real-time chat features using WebSockets and API endpoints (`happymore`).
+- **Point System**: Created Controllers and Services for point accumulation and probability logic (`eventu`).
+- **User Management**: Modifications to User Management System (UMS) and shared usage of common libraries (`happymore`).
 
-- **API Development**: Created Controllers (`PointController`, `AdminPointController`) and Services (`PointService`, `ProbabilityService`).
-- **Batch Processing** (`eventu-batch`):
-  - Implemented Spring Batch jobs for data aggregation (DAU, MAU, Point Ranking).
-  - Configured Job definitions and Steps (`AggregatePointRankingConfig`).
+### Batch & Data (`eventu-batch`, `eventu-point`)
+
+- **Batch Processing**:
+  - Spring Batch jobs for aggregating DAU, MAU, and Point Rankings (`eventu`).
 - **Redis Integration**:
-  - Used Redis Streams for event processing (`StreamKey`, `MemberSignUpMessage`).
-  - Implemented Distributed Locking (`DistributedLockAop.java`).
-
-### Database & Data Access
-
-- **MyBatis**: Extensively used MyBatis for SQL mapping.
-  - XML Mappers: `PointMapper.xml`, `PointDetailHistoryMapper.xml`, `GoogleAnalyticsDataMapper.xml`.
-  - Dynamic SQL for reports and history tracking.
-- **SQL**: Schema updates and migration scripts (`eventu-point.sql`, `pointRanking.sql`).
+  - Utilized **Redis Streams** for event-driven processing and distributed locking (`eventu`).
+- **Database**:
+  - **MyBatis**: Complex XML mappers and dynamic SQL for reports.
+  - Schema management and migration scripts.
 
 ## 🛠 DevOps & Infrastructure
 
-**Projects:** `eventu-app`, `eventu-webview`, `All`
-
 - **CI/CD**:
-  - Configured GitHub Actions workflows (`android.yaml`, `codePush.yml`, `release.yml`).
-  - Implemented **Semantic Release** for automated versioning.
-  - Managed **CodePush** deployments for React Native.
-- **Monitoring & Analytics**:
-  - Integrated **Google Analytics (GA4)** data collection and batch processing.
-  - Set up **Firebase Performance** monitoring.
-  - Configured **Sentry** for error tracking (`sentry.properties`).
-- **Package Management**: Managed dependencies via `package.json`, `yarn.lock`.
+  - **GitHub Actions**: Workflows for Android build, CodePush, and Release management.
+  - **Automation**: Automated versioning and changelog generation.
+- **Monitoring**:
+  - Integrated **Google Analytics (GA4)** and **Firebase Performance** monitoring.
+  - Configured **Sentry** for comprehensive error tracking.
 
 ## 🎨 Design & Assets
 
-- **Assets**: Managed SVGs, PNGs, and internal icons (`ico_hidden_card_coin.svg`, `splash.mp4`).
-- **Fonts**: Applied custom fonts (NotoSans).
+- Managed assets (SVGs, Lottie animations) and applied custom fonts (NotoSans) across platforms.
 
 <br />
 
