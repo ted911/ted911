@@ -12,38 +12,35 @@
 <!-- GitHub Markdown doesn't support CSS Grid, so we use Tables for layout -->
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <!-- CELL 1: TECH STACK -->
+    <!-- CELL 1: MOBILE & FRONTEND -->
     <td width="50%" align="center" style="border: none;">
-      <h3>🛠️ Core Engineering</h3>
+      <h3>� Mobile & Frontend</h3>
       <br />
-      <img src="https://skillicons.dev/icons?i=java,spring,mysql,gradle,hibernate&theme=dark" />
+      <img src="https://skillicons.dev/icons?i=react,ts,html,css,styledcomponents&theme=dark" />
       <br /><br />
-      <p><b>Spring Batch & Legacy Refactoring</b></p>
+      <p><b>Cross-Platform & Hybrid Web Views</b></p>
     </td>
-    <!-- CELL 2: GITHUB STATS -->
+    <!-- CELL 2: BACKEND & SYSTEMS -->
     <td width="50%" align="center" style="border: none;">
-       <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ted911&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117" alt="stats graph" />
+      <h3>☕ Backend & Systems</h3>
+      <br />
+      <img src="https://skillicons.dev/icons?i=java,spring,redis,mysql,mybatis&theme=dark" />
+      <br /><br />
+      <p><b>Scalable APIs & Batch Processing</b></p>
     </td>
   </tr>
   <tr>
-    <!-- CELL 3: DEVOPS & INFRA -->
+    <!-- CELL 3: DEVOPS & QUALITY -->
     <td width="50%" align="center" style="border: none;">
-      <h3>🚀 Architecture & Ops</h3>
+      <h3>🚀 DevOps & Quality</h3>
       <br />
-      <img src="https://skillicons.dev/icons?i=docker,kubernetes,grafana,nginx,linux&theme=dark" />
+      <img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,sentry,fastlane,grafana&theme=dark" />
       <br /><br />
-      <p><b>K8s Deployment & Monitoring</b></p>
+      <p><b>CI/CD, Monitoring & Automated Release</b></p>
     </td>
-    <!-- CELL 4: QUALITY & AUTOMATION -->
+    <!-- CELL 4: GITHUB STATS -->
     <td width="50%" align="center" style="border: none;">
-      <h3>🛡️ Quality Assurance</h3>
-      <br />
-      <p>
-        <img src="https://img.shields.io/badge/Static_Analysis-SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white" />
-        <img src="https://img.shields.io/badge/Workflow-n8n-FF6584?style=for-the-badge&logo=n8n&logoColor=white" />
-      </p>
-      <br />
-      <p><b>Standardization & Policy Governance</b></p>
+       <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ted911&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117" alt="stats graph" />
     </td>
   </tr>
 </table>
