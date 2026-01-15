@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD033 MD041 MD045 -->
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Full+Stack+Architect;Cross-Platform+Specialist;React+Native+%26+Spring+Boot" alt="Typing SVG" />
 </div>
@@ -14,7 +15,7 @@
   <tr>
     <!-- CELL 1: MOBILE & FRONTEND -->
     <td width="50%" align="center" style="border: none;">
-      <h3>� Mobile & Frontend</h3>
+      <h3>📱 Mobile & Frontend</h3>
       <br />
       <img src="https://skillicons.dev/icons?i=react,ts,html,css,styledcomponents&theme=dark" />
       <br /><br />
